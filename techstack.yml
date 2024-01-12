@@ -1,0 +1,288 @@
+repo_name: 2lambda123/doppler_noaa
+report_id: 89740d918400fe28d9318f80269757a5
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T07:55:44+00:00'
+requested_by: rroberts2222
+provider: github
+branch: master
+detected_tools_count: 21
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa
+  detection_source: Repo Metadata
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-27 01:02:55.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa/blob/master/.github/workflows/go.yml
+  detection_source: ".github/workflows/go.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-08-15 00:50:18.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa
+  detection_source: Repo Metadata
+- name: assertion
+  description: Ginkgo's Preferred Matcher Library
+  package_url: https://pkg.go.dev/github.com/onsi/gomega/internal/assertion
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Carson Long
+  last_updated_on: 2022-07-29 17:07:57.000000000 Z
+- name: convert
+  description: BDD Testing Framework for Go
+  package_url: https://pkg.go.dev/github.com/onsi/ginkgo/ginkgo/convert
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Carson Long
+  last_updated_on: 2022-07-29 17:07:57.000000000 Z
+- name: dropsonde
+  description: Go library to collect and emit metric and logging data from CF components
+  package_url: https://pkg.go.dev/github.com/cloudfoundry/dropsonde
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Carson Long
+  last_updated_on: 2023-08-01 21:30:27.000000000 Z
+- name: fsnotify
+  description: Cross-platform file system notifications for Go
+  package_url: https://pkg.go.dev/github.com/fsnotify/fsnotify
+  version: 1.4.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Carson Long
+  last_updated_on: 2023-08-01 21:30:27.000000000 Z
+- name: ginkgo
+  description: BDD Testing Framework for Go
+  package_url: https://pkg.go.dev/github.com/onsi/ginkgo
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Carson Long
+  last_updated_on: 2022-07-29 17:07:57.000000000 Z
+- name: gomega
+  description: Ginkgo's Preferred Matcher Library
+  package_url: https://pkg.go.dev/github.com/onsi/gomega
+  version: 1.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-07-25 00:57:13.000000000 Z
+- name: goproxy
+  description: An HTTP proxy library for Go
+  package_url: https://pkg.go.dev/github.com/elazarl/goproxy
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Carson Long
+  last_updated_on: 2023-08-01 21:26:56.000000000 Z
+- name: gouuid
+  description: Go binding for libuuid
+  package_url: https://pkg.go.dev/github.com/nu7hatch/gouuid
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Carson Long
+  last_updated_on: 2022-07-29 17:07:57.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Carson Long
+  last_updated_on: 2022-07-29 17:07:57.000000000 Z
+- name: sonde-go
+  description: Go implementation of Cloud Foundry's Dropsonde Protocol
+  package_url: https://pkg.go.dev/github.com/cloudfoundry/sonde-go
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Carson Long
+  last_updated_on: 2023-08-01 21:30:27.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Carson Long
+  last_updated_on: 2022-07-29 17:07:57.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-07-24 01:01:35.000000000 Z
+- name: tomb.v1
+  description: The tomb package offers a conventional API for clean goroutine termination
+  package_url: https://pkg.go.dev/gopkg.in/tomb.v1
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Carson Long
+  last_updated_on: 2022-07-29 17:07:57.000000000 Z
+- name: tools
+  description: Go Tools
+  package_url: https://pkg.go.dev/golang.org/x/tools
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Carson Long
+  last_updated_on: 2023-08-01 21:30:27.000000000 Z
+- name: uaago
+  description: UAA client for golang
+  package_url: https://pkg.go.dev/github.com/cloudfoundry-incubator/uaago
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Carson Long
+  last_updated_on: 2022-07-29 17:07:57.000000000 Z
+- name: websocket
+  description: A fast
+  package_url: https://pkg.go.dev/github.com/gorilla/websocket
+  version: 1.5.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/doppler_noaa/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Carson Long
+  last_updated_on: 2022-07-29 17:07:57.000000000 Z
